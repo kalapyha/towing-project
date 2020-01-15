@@ -1,0 +1,139 @@
+/* RESET */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, ol, ul, li,
+fieldset, form, label, legend,
+footer, header, nav, section {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* END RESET */
+
+h1 {
+  font-size: 2em;
+  padding: 15px;
+}
+
+p {
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 1.3em;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+li {
+
+  list-style: none;
+  padding: 10px;
+}
+
+.light-grey-bg {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-white {
+  color: #FFF;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.width-1000 {
+  max-width: 1000px;
+}
+
+.width-500 {
+  max-width: 500px;
+}
+
+.align-center {
+  margin: 0 auto;
+}
+
+.align-with-margin-50 {
+  margin: 50px auto;
+}
+
+.header-wrapper {
+  height: 70px;
+  align-items: center;
+}
+
+.contacts {
+  width: 70%;
+}
+
+.social {
+  width: 30%;
+}
+
+.welcome-section {
+  background-image: url('../images/white-truck.jpg');
+  background-size: cover;
+  background-position: top;
+  /* padding: 15em 0; */
+}
+
+.welcome-section-logo {
+  height: auto;
+  width: 140px;
+}
+
+.button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.button-white {
+  border: 2px solid #fff;
+  background: rgb(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.circle {
+  padding: 150px 50px;
+  border-radius: 50%;
+  text-align: center;
+
+}
