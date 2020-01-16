@@ -9,7 +9,7 @@ footer, header, nav, section {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: Raleway, sans-serif;
 	vertical-align: baseline;
 }
 
@@ -27,7 +27,7 @@ p {
 }
 
 a {
-  color: #FFF;
+  /* color: #FFF; */
   text-decoration: none;
 }
 
@@ -36,9 +36,15 @@ li {
   list-style: none;
   padding: 10px;
 }
+section {
+  overflow: auto;
+}
 
 .light-grey-bg {
   background-color: rgba(255, 255, 255, 0.6);
+}
+.orange-bg {
+  background-color: rgba(252, 90, 10, 0.2);
 }
 
 .color-black {
@@ -110,9 +116,47 @@ li {
   /* padding: 15em 0; */
 }
 
+.hero-img-wrapper {
+  background-image: url('../images/hero-img-night-road.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 13em 0;
+}
+
+.location-img {
+  background-image: url('../images/location.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 15em 0;
+}
+
+.photo {
+  width: auto;
+  height: 100%;
+}
+
+.mike-jr-margin {
+  margin-left: -15px;
+}
+
+.brandon-margin {
+  margin-left: -30px;
+}
+
+.photo-wrapper-circle {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+/* .round {
+  border-radius: 50%;
+} */
+
 .welcome-section-logo {
   height: auto;
-  width: 140px;
+  width: 240px;
 }
 
 .button {
@@ -132,7 +176,7 @@ li {
 }
 
 .circle {
-  padding: 150px 50px;
+  padding: 150px 60px;
   border-radius: 50%;
   text-align: center;
 
