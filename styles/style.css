@@ -116,6 +116,10 @@ section {
 }
 
 .width-1000 {
+  width: 1000px;
+}
+
+.max-width-1000 {
   max-width: 1000px;
 }
 
@@ -136,11 +140,20 @@ section {
 }
 
 .margin-sides-10 {
-  margin: 0 10px;
+  /* margin: 0 10px; */
+  margin: 10px;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .pad-bottom-20 {
   padding-bottom: 20px;
+}
+
+.pad-top-bottom-10 {
+  padding: 10px 0;
 }
 
 .header-wrapper {
@@ -160,7 +173,6 @@ section {
   background-image: url('../images/white-truck.jpg');
   background-size: cover;
   background-position: top;
-  /* padding: 15em 0; */
 }
 
 .hero-img-wrapper {
@@ -168,7 +180,6 @@ section {
   background-size: cover;
   background-position: center;
   padding: 13em 0;
-
   background-attachment: fixed;
 }
 
@@ -199,9 +210,6 @@ section {
   border-radius: 50%;
 
 }
-/* .round {
-  border-radius: 50%;
-} */
 
 .welcome-section-logo {
   height: auto;
@@ -236,9 +244,63 @@ section {
   transition: 1.5s;
 }
 
+.orange-line-hover:hover {
+  border-bottom: 2px solid var(--orange-color);
+  transition: 0.2s;
+}
+
+
 .circle {
   padding: 130px 60px;
   border-radius: 50%;
   text-align: center;
 
+}
+
+@media only screen and (max-width: 1030px) {
+  /* For mobile devices: */
+  .flex-start-mob {
+    justify-content: flex-start;
+  }
+  .flex-column-mob {
+    flex-direction: column;
+  }
+  .flex-center-mob {
+    justify-content: center;
+  }
+  .hidden-mob{
+    display: none;
+  }
+  .flex-wrap-mob {
+    flex-wrap: wrap;
+  }
+  .margin-bot-50-mob {
+    /* margin: 0 10px; */
+    margin-bottom: 50px;
+  }
+  .reviews-rating {
+
+    margin-top: 8em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile devices: */
+  .font-size-mob {
+    font-size: 0.8em;
+  }
+  .social-mob {
+    max-width: 3%;
+    justify-content: center;
+  }
+  .contacts {
+    width: 90%;
+  }
+  .circle {
+    border-radius: 0%;
+    margin: 0;
+  }
+  /* .flex-wrap-mob {
+    flex-wrap: wrap;
+  } */
 }
